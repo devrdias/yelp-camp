@@ -18,7 +18,7 @@ var campgroundsRoutes = require("./routes/campgrounds"),
     authRoutes = require("./routes/auth");
 
 // create the database
-mongoose.connect("mongodb://localhost/yelpcamp");
+mongoose.connect("mongodb://yelpcamp:yelpcamp@ds161021.mlab.com:61021/yelp-camp");
 
 // configure the app
 var app = express();
